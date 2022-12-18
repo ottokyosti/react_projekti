@@ -1,0 +1,83 @@
+{
+  "contexts": [
+    {
+      "id": 1,
+      "contextName": "Sports"
+    },
+    {
+      "id": 3,
+      "contextName": "School"
+    },
+    {
+      "contextName": "Rovaniemellä vierailu",
+      "id": 4
+    },
+    {
+      "contextName": "Koko elämä",
+      "id": 5
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "position": 1,
+      "activity": "Skiing",
+      "context": [
+        "Sports"
+      ]
+    },
+    {
+      "id": 2,
+      "position": 2,
+      "activity": "Ice skating",
+      "context": [
+        "Sports"
+      ]
+    },
+    {
+      "id": 5,
+      "position": 3,
+      "activity": "Coding",
+      "context": [
+        "School"
+      ]
+    },
+    {
+      "id": 6,
+      "position": 4,
+      "activity": "Drink water",
+      "context": [
+        "Sports",
+        "School"
+      ]
+    },
+    {
+      "position": 5,
+      "activity": "Räjähtämine",
+      "context": [
+        "Koko elämä",
+        "School",
+        "Sports",
+        "Rovaniemellä vierailu"
+      ],
+      "id": 7
+    },
+    {
+      "position": 6,
+      "activity": "Puolimies",
+      "context": [
+        "Koko elämä",
+        "Sports"
+      ],
+      "id": 8
+    },
+    {
+      "position": 7,
+      "activity": "Tuomionkirkossa vieraileminen",
+      "context": [
+        "School"
+      ],
+      "id": 9
+    }
+  ]
+}
